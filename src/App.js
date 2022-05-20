@@ -1,23 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import DataFetching from "./components/DataFetching";
+// import MouseContainer from "./components/MouseContainer";
+// import ClassCounter from './components/ClassCounter';
+// import HookCounter from './components/HookCounter';
+// import HookCounterExt from './components/HookCounterExt';
+// import UseStateHookWithObject from './components/UseStateHookWithObject';
+// import UseStateWithArray from './components/UseStateWithArray';
+// import ClassCounterLifeCycle from "./components/ClassCounterLifeCycle";
+// import UseEffectLifeCycle from "./components/UseEffectLifeCycle";
+// import UseEffectHookMouse from "./components/UseEffectHookMouse";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <DataFetching></DataFetching>
+      {/* <ClassCounter></ClassCounter> */}
+      {/* <HookCounter></HookCounter> */}
+      {/* <HookCounterExt></HookCounterExt> */}
+      {/* <UseStateHookWithObject></UseStateHookWithObject> */}
+      {/* <UseStateWithArray></UseStateWithArray> */}
+      {/* <ClassCounterLifeCycle></ClassCounterLifeCycle> */}
+      {/* <UseEffectLifeCycle></UseEffectLifeCycle> */}
+      {/* <UseEffectHookMouse></UseEffectHookMouse> */}
+      {/* <MouseContainer></MouseContainer> */}
     </div>
   );
 }
